@@ -5,7 +5,7 @@ antidote load
 export ANTIDOTE_HOME=~/.cache/antidote
 antidote bundle <~/.zsh_plugins>~/.zsh_plugins.zsh
 autoload -U promptinit; promptinit
-prompt pure
+prompt bart 
 source ~/.zsh_plugins.zsh
 neofetch
 
