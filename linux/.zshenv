@@ -1,1 +1,1 @@
-export ANTIDOTE_SOURCE="~/.antidote/antidote.zsh"
+export ANTIDOTE_SOURCE=~/.antidote/antidote.zsh
