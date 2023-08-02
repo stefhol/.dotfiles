@@ -1,4 +1,4 @@
-souce ~/.zshenv
+source ~/.zshenv
 source $ANTIDOTE_SOURCE
 antidote load
 export ANTIDOTE_HOME=~/.cache/antidote
