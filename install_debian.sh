@@ -5,3 +5,6 @@ sudo apt-get install clang nodejs git ssh stow neofetch -y
 
 git clone --depth=1 https://github.com/mattmc3/antidote.git ~/.antidote
 chmod +x "~/.antidote/antidote.zsh"
+
+curl -L https://github.com/neovim/neovim/releases/latest/download/nvim.appimage -o ~/nvim.appimage
+chmod u+x ~/nvim.appimage
