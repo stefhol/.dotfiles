@@ -1,0 +1,10 @@
+[
+    {
+        "context": "Editor",
+        "bindings": {
+            "alt-shift-up": "editor::MoveLineUp",
+            "alt-shift-down": "editor::MoveLineDown",
+            "ctrl-r": "editor::Rename"
+        }
+    }
+]
