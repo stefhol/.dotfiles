@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #nvim stuff
-sudo apt-get install clang nodejs git ssh stow neofetch unzip -y
+sudo dnf install zig nodejs git stow neofetch unzip -y
 cd ~/.dotfiles
 git submodule update --recursive --init
 cd ~
