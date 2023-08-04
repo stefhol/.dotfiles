@@ -10,7 +10,7 @@ xcode-select --install
 ```
 
 ```bash
-git clone git@github.com:stefhol/.dotfiles.git ~/.dotfiles --recurse-submodules
+git clone https://github.com/stefhol/.dotfiles.git ~/.dotfiles --recurse-submodules
 cd ~/.dotfiles
 git submodule update --recursive --init
 ```
