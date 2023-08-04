@@ -11,9 +11,9 @@ zsh-users/zsh-completions
 # olets/zsh-abbr    kind:defer
 
 # # frameworks like oh-my-zsh are supported
-# ohmyzsh/ohmyzsh path:lib
-# ohmyzsh/ohmyzsh path:plugins/colored-man-pages
-# ohmyzsh/ohmyzsh path:plugins/magic-enter
+ohmyzsh/ohmyzsh path:lib
+ohmyzsh/ohmyzsh path:plugins/colored-man-pages
+ohmyzsh/ohmyzsh path:plugins/magic-enter
 
 # prompts:
 #   with prompt plugins, remember to add this to your .zshrc:
