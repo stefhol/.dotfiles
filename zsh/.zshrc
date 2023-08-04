@@ -10,5 +10,6 @@ antidote bundle <~/.zsh_plugins>~/.zsh_plugins.zsh
 autoload -U promptinit; promptinit
 prompt bart 
 source ~/.zsh_plugins.zsh
+alias neofetch="neofetch --no_config"
 neofetch
 
