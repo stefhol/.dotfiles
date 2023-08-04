@@ -1,5 +1,5 @@
 [submodule "nvim/.config/nvim"]
 	path = nvim/.config/nvim
-	url = https://github.com:stefhol/nvim.git
+	url = https://github.com/stefhol/nvim.git
 	fetchRecurseSubmodules = true 
 	shallow = true
