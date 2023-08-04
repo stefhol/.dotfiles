@@ -5,7 +5,7 @@
 # See 'info stow' section "4 Ignore Lists" for more information
 
 
-/.DS_STORE
+\.DS_Store
 \.svn
 _darcs
 \.hg
