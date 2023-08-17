@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #nvim stuff
-sudo dnf install zig nodejs git stow neofetch unzip ripgrep zsh util-linux-user -y
+sudo dnf install zig nodejs npm git stow neofetch unzip ripgrep zsh util-linux-user -y
 cd ~/.dotfiles
 git submodule update --recursive --init
 cd ~
