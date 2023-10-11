@@ -41,15 +41,15 @@ alt + shift - 9 : yabai -m window --space 9
 
 # fast focus desktop
 alt - z : yabai -m space --focus recent
-# alt - 1 : yabai -m space --focus 1
-# alt - 2 : yabai -m space --focus 2
-# alt - 3 : yabai -m space --focus 3
-# alt - 4 : yabai -m space --focus 4
-# alt - 5 : yabai -m space --focus 5
-# alt - 6 : yabai -m space --focus 6
-# alt - 7 : yabai -m space --focus 7
-# alt - 8 : yabai -m space --focus 8
-# alt - 9 : yabai -m space --focus 9
+alt - 1 : yabai -m space --focus 1
+alt - 2 : yabai -m space --focus 2
+alt - 3 : yabai -m space --focus 3
+alt - 4 : yabai -m space --focus 4
+alt - 5 : yabai -m space --focus 5
+alt - 6 : yabai -m space --focus 6
+alt - 7 : yabai -m space --focus 7
+alt - 8 : yabai -m space --focus 8
+alt - 9 : yabai -m space --focus 9
 
 # # mirror tree y-axis
 alt + shift - y : yabai -m space --mirror y-axis
@@ -62,7 +62,7 @@ alt + shift - 0 : yabai -m space --balance
 
 # change layout of desktop
 alt + cmd - e : yabai -m space --layout bsp
-alt + cmd - l : yabai -m space --layout float
+alt + cmd - f : yabai -m space --layout float
 alt + cmd - s : yabai -m space --layout stack
 
 # cycle through stack windows
@@ -96,5 +96,5 @@ alt + fn - l : yabai -m --resize left:100:0 || \
 alt + cmd - w : yabai -m window --close
 
 # enter fullscreen mode for the focused container
-alt + cmd - f : yabai -m window --toggle zoom-fullscreen
+# alt + cmd - f : yabai -m window --toggle zoom-fullscreen
 
