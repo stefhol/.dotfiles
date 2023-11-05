@@ -11,15 +11,15 @@
 # see this wiki page for information:
 #  - https://github.com/koekeishiya/yabai/wiki/Installing-yabai-(latest-release)
 #
-sudo yabai --load-sa
-yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+# sudo yabai --load-sa
+# yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 
 #!/usr/bin/env sh
 
 
 # global settings
 yabai -m config mouse_follows_focus          off
-yabai -m config focus_follows_mouse          autofocus
+yabai -m config focus_follows_mouse          off 
 
 yabai -m config window_placement             second_child
 yabai -m config window_topmost               off
@@ -39,7 +39,7 @@ yabai -m config mouse_action1                move
 yabai -m config mouse_action2                resize
 
 # general space settings
-yabai -m config layout                       bsp
+yabai -m config layout                       float
 yabai -m config bottom_padding               3
 yabai -m config left_padding                 3
 yabai -m config right_padding                3
@@ -68,6 +68,6 @@ yabai -m rule --add app="^(Spotify|Amazon Music|Music)$" space=5
 yabai -m rule --add app="^(Slack|WhatsApp|Microsoft Teams|Discord)$" space=6
 # Remote
 yabai -m rule --add app="^(Parsec|AnyDesk|Microsoft Remote Desktop)$" space=7 manage=off
-yabai -m config external_bar all:0:25
+# yabai -m config external_bar all:0:25
 
 echo "yabai configuration loaded.."
