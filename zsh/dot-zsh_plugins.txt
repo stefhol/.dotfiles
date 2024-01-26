@@ -26,3 +26,6 @@ mattmc3/zfunctions
 zsh-users/zsh-autosuggestions
 zdharma-continuum/fast-syntax-highlighting kind:defer
 zsh-users/zsh-history-substring-search
+
+# vim mode
+jeffreytse/zsh-vi-mode
