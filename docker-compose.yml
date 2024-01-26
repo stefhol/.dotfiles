@@ -1,0 +1,15 @@
+services:
+  fedora_dev:
+    restart: always
+    container_name: dev
+    build: .
+    privileged: true
+    stdin_open: true
+    tty: true
+    user: "me:wheel"
+    volumes:
+      - "../projects:/home/me/projects:rw"
+      - "../.ssh:/home/me/.ssh"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    
+  
