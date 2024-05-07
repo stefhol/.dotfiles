@@ -31,7 +31,7 @@ brew "llvm"
 # Java-based project management
 brew "maven"
 # Fast, highly customisable system info script
-brew "neofetch"
+brew "fastfetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Pinentry for GPG on Mac

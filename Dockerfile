@@ -6,7 +6,7 @@ RUN sudo dnf copr enable agriffis/neovim-nightly -y
 RUN sudo dnf install -y neovim python3-neovim -y
 RUN sudo dnf install zellij -y
 RUN sudo dnf install tmux -y
-RUN sudo dnf install gcc g++ zig nodejs npm git stow neofetch unzip openssl ripgrep zsh util-linux-user java-latest-openjdk httpie fzf bat just rust rustup cargo -y
+RUN sudo dnf install gcc g++ zig nodejs npm git stow fastfetch unzip openssl ripgrep zsh util-linux-user java-latest-openjdk httpie fzf bat just rust rustup cargo -y
 RUN chsh -s /bin/zsh
 RUN sudo dnf install passwd -y
 # User setup
