@@ -7,7 +7,7 @@ autoload -Uz compinit
 compinit
 
 # source antidote
-source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+source ${ANTIDOTE_SOURCE:-/usr/share/zsh-antidote/antidote.zsh}
 
 # initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
 antidote load

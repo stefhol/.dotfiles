@@ -1,1 +1,2 @@
-export ANTIDOTE_SOURCE=~/.antidote/antidote.zsh
+export ANTIDOTE_SOURCE=/usr/share/zsh-antidote/antidote.zsh
+. "$HOME/.cargo/env"
